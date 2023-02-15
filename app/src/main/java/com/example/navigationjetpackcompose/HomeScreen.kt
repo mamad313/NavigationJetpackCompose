@@ -22,7 +22,7 @@ fun HomeScreen(
     ) {
         Text(
             modifier = Modifier.clickable {
-               navController.navigate(route = Screen.Detail.rout)
+               navController.navigate(route = Screen.Detail.passNameAndId(13,"mamad"))
             },
             text = "Home",
             fontWeight = FontWeight.Bold)
